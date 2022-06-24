@@ -1,0 +1,16 @@
+PODS:
+  - HLLogin (0.1.0)
+
+DEPENDENCIES:
+  - HLLogin (from `../`)
+
+EXTERNAL SOURCES:
+  HLLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLLogin: 832daa7ca4bd7c2710b10739c8c222569cb927bc
+
+PODFILE CHECKSUM: e4f341ec39a855bddf154172e57d4e9731d4f3c3
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,35 @@
+{
+  "name": "HLLogin",
+  "version": "0.1.0",
+  "summary": "A short description of HLLogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/贾海亮/HLLogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "贾海亮": "www.51candy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/贾海亮/HLLogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HLLogin/Classes/**/*.{h,m,mm,cpp,c,xml}",
+  "resource_bundles": {
+    "HLLogin": [
+      "HLLogin/Assets/**/*",
+      "HLLogin/Classes/**/*.{xml}",
+      "HLLogin/Images.xcassets"
+    ]
+  },
+  "dependencies": {
+    "HLKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <OGKit/OGKit.h>\n#endif"
+}

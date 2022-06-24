@@ -1,0 +1,35 @@
+{
+  "name": "HLKit",
+  "version": "0.1.0",
+  "summary": "A short description of HLKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/贾海亮/HLKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "贾海亮": "www.51candy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/贾海亮/HLKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HLKit/Classes/**/*.{h,m,mm,cpp,c,xml}",
+  "resource_bundles": {
+    "HLKit": [
+      "HLKit/Assets/**/*",
+      "HLKit/Classes/**/*.{xml}",
+      "HLKit/Images.xcassets"
+    ]
+  },
+  "dependencies": {
+    "FlexLib": [
+
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <OGKit/OGKit.h>\n#endif"
+}

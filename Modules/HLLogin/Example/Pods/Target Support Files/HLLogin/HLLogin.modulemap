@@ -1,0 +1,6 @@
+framework module HLLogin {
+  umbrella header "HLLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

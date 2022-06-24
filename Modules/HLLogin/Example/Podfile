@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HLLogin_Example' do
+  pod 'HLLogin', :path => '../'
+
+  target 'HLLogin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
