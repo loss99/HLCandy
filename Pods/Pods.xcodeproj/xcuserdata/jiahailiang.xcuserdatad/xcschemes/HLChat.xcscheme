@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FCC532B653F0F8D5350E4A03DAA20892"
-               BuildableName = "HLChat.framework"
+               BuildableName = "HLChat"
                BlueprintName = "HLChat"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

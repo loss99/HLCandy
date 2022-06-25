@@ -11,6 +11,6 @@
 #endif
 
 #ifdef __OBJC__
-//#import <HLKit/HLKit.h>
+#import <HLKit/HLKit.h>
 //#import "HLChat.pbobjc.h"
 #endif

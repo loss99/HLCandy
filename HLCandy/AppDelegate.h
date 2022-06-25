@@ -10,6 +10,7 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (strong, nonatomic) UIWindow * window;
+- (void)backToF1WithAnimation:(BOOL)animation force:(BOOL)force;
 
 
 @end

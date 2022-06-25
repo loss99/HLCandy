@@ -39,7 +39,9 @@ TODO: Add long description of the pod here.
       'HLKit/Images.xcassets',
     ]
   }
-  
+  s.vendored_frameworks = [
+      'HLKit/Libs/DU/du.framework'
+  ]
   # s.resource_bundles = {
   #   'HLKit' => ['HLKit/Assets/*.png']
   # }

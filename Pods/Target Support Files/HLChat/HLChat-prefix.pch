@@ -11,10 +11,8 @@
 #endif
 
 #ifdef __OBJC__
-//#import <HLKit/HLKit.h>
-//#import <HLKitSon/HLKitSon.h>
-//#import "HLDB.h"
-//#import "UIImageView+YPWebImage.h"
+#import <HLKit/HLKit.h>
+#import "HLDB.h"
 #import <FlexLib/FlexLib.h>
-//#import "HLChatHeader.h"
+#import "HLChatHeader.h"
 #endif

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89B60A8A6B774CA169761A26 /* Pods_HLCandy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C0E752A690CCFE2261F616 /* Pods_HLCandy.framework */; };
+		2232E383BCAB1C4ADF5BBA65 /* Pods_HLCandy_RD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC570BEB85B8941855CD0E1F /* Pods_HLCandy_RD.framework */; };
+		89B60A8A6B774CA169761A26 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		A01ACFF52865688100062F58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFF42865688100062F58 /* AppDelegate.m */; };
 		A01ACFFB2865688100062F58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFFA2865688100062F58 /* ViewController.m */; };
 		A01ACFFE2865688100062F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01ACFFC2865688100062F58 /* Main.storyboard */; };
@@ -16,6 +17,15 @@
 		A01AD0062865688300062F58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD0052865688300062F58 /* main.m */; };
 		A01AD01E28669F4C00062F58 /* HLCandyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD01D28669F4C00062F58 /* HLCandyTests.m */; };
 		A01AD02C28669F6300062F58 /* HLCandyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD02B28669F6300062F58 /* HLCandyUITests.m */; };
+		A01AD0362866B28000062F58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFFA2865688100062F58 /* ViewController.m */; };
+		A01AD0372866B28000062F58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFF42865688100062F58 /* AppDelegate.m */; };
+		A01AD0382866B28000062F58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD0052865688300062F58 /* main.m */; };
+		A01AD03C2866B28000062F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01AD0012865688300062F58 /* LaunchScreen.storyboard */; };
+		A01AD03D2866B28000062F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01ACFFF2865688300062F58 /* Assets.xcassets */; };
+		A01AD03E2866B28000062F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01ACFFC2865688100062F58 /* Main.storyboard */; };
+		A01AD04C2866DA6700062F58 /* SourceHanSerifCN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A01AD04B2866DA6700062F58 /* SourceHanSerifCN-Bold.otf */; };
+		A01AD04D2866DA6700062F58 /* SourceHanSerifCN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A01AD04B2866DA6700062F58 /* SourceHanSerifCN-Bold.otf */; };
+		B9E773EDEAF34A2A3CB260D0 /* Pods_HLCandy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5628F5A4F3EDEE86FBAC83 /* Pods_HLCandy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C242B88DF8AF09B3F5F934 /* Pods-HLCandy-RD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy-RD.debug.xcconfig"; path = "Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD.debug.xcconfig"; sourceTree = "<group>"; };
 		1CD2E9E345B0AB921CB614F8 /* Pods-HLCandy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy.debug.xcconfig"; path = "Target Support Files/Pods-HLCandy/Pods-HLCandy.debug.xcconfig"; sourceTree = "<group>"; };
+		6B5628F5A4F3EDEE86FBAC83 /* Pods_HLCandy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLCandy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC96649C41739A8C4750FE7 /* Pods-HLCandy-RD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy-RD.release.xcconfig"; path = "Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD.release.xcconfig"; sourceTree = "<group>"; };
 		732D55CCD06F26665D329CF2 /* Pods-HLCandy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy.release.xcconfig"; path = "Target Support Files/Pods-HLCandy/Pods-HLCandy.release.xcconfig"; sourceTree = "<group>"; };
-		82C0E752A690CCFE2261F616 /* Pods_HLCandy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLCandy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01ACFF02865688100062F58 /* HLCandy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCandy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01ACFF32865688100062F58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A01ACFF42865688100062F58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +67,10 @@
 		A01AD02928669F6300062F58 /* HLCandyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCandyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01AD02B28669F6300062F58 /* HLCandyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCandyUITests.m; sourceTree = "<group>"; };
 		A01AD02D28669F6300062F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01AD0442866B28000062F58 /* HLCandy-RD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLCandy-RD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01AD0452866B28000062F58 /* HLCandy-RD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HLCandy-RD-Info.plist"; path = "/Users/jiahailiang/HLCandy/HLCandy-RD-Info.plist"; sourceTree = "<absolute>"; };
+		A01AD04B2866DA6700062F58 /* SourceHanSerifCN-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSerifCN-Bold.otf"; sourceTree = "<group>"; };
+		CC570BEB85B8941855CD0E1F /* Pods_HLCandy_RD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLCandy_RD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B60A8A6B774CA169761A26 /* Pods_HLCandy.framework in Frameworks */,
+				89B60A8A6B774CA169761A26 /* BuildFile in Frameworks */,
+				B9E773EDEAF34A2A3CB260D0 /* Pods_HLCandy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +97,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A01AD0392866B28000062F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2232E383BCAB1C4ADF5BBA65 /* Pods_HLCandy_RD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		319244FC5FBE9ACE269C7376 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				82C0E752A690CCFE2261F616 /* Pods_HLCandy.framework */,
+				CC570BEB85B8941855CD0E1F /* Pods_HLCandy_RD.framework */,
+				6B5628F5A4F3EDEE86FBAC83 /* Pods_HLCandy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,6 +126,7 @@
 				A01ACFF12865688100062F58 /* Products */,
 				C9F2EA31337914CB371F5F55 /* Pods */,
 				319244FC5FBE9ACE269C7376 /* Frameworks */,
+				A01AD0452866B28000062F58 /* HLCandy-RD-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +136,7 @@
 				A01ACFF02865688100062F58 /* HLCandy.app */,
 				A01AD01B28669F4B00062F58 /* HLCandyTests.xctest */,
 				A01AD02928669F6300062F58 /* HLCandyUITests.xctest */,
+				A01AD0442866B28000062F58 /* HLCandy-RD.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +153,7 @@
 				A01AD0012865688300062F58 /* LaunchScreen.storyboard */,
 				A01AD0042865688300062F58 /* Info.plist */,
 				A01AD0052865688300062F58 /* main.m */,
+				A01AD04B2866DA6700062F58 /* SourceHanSerifCN-Bold.otf */,
 			);
 			path = HLCandy;
 			sourceTree = "<group>";
@@ -152,6 +181,8 @@
 			children = (
 				1CD2E9E345B0AB921CB614F8 /* Pods-HLCandy.debug.xcconfig */,
 				732D55CCD06F26665D329CF2 /* Pods-HLCandy.release.xcconfig */,
+				00C242B88DF8AF09B3F5F934 /* Pods-HLCandy-RD.debug.xcconfig */,
+				6CC96649C41739A8C4750FE7 /* Pods-HLCandy-RD.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -215,6 +246,26 @@
 			productReference = A01AD02928669F6300062F58 /* HLCandyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A01AD0332866B28000062F58 /* HLCandy-RD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01AD0412866B28000062F58 /* Build configuration list for PBXNativeTarget "HLCandy-RD" */;
+			buildPhases = (
+				A01AD0342866B28000062F58 /* [CP] Check Pods Manifest.lock */,
+				A01AD0352866B28000062F58 /* Sources */,
+				A01AD0392866B28000062F58 /* Frameworks */,
+				A01AD03B2866B28000062F58 /* Resources */,
+				A01AD03F2866B28000062F58 /* [CP] Embed Pods Frameworks */,
+				A01AD0402866B28000062F58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HLCandy-RD";
+			productName = HLCandy;
+			productReference = A01AD0442866B28000062F58 /* HLCandy-RD.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -253,6 +304,7 @@
 				A01ACFEF2865688100062F58 /* HLCandy */,
 				A01AD01A28669F4B00062F58 /* HLCandyTests */,
 				A01AD02828669F6300062F58 /* HLCandyUITests */,
+				A01AD0332866B28000062F58 /* HLCandy-RD */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01AD04C2866DA6700062F58 /* SourceHanSerifCN-Bold.otf in Resources */,
 				A01AD0032865688300062F58 /* LaunchScreen.storyboard in Resources */,
 				A01AD0002865688300062F58 /* Assets.xcassets in Resources */,
 				A01ACFFE2865688100062F58 /* Main.storyboard in Resources */,
@@ -279,6 +332,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD03B2866B28000062F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01AD04D2866DA6700062F58 /* SourceHanSerifCN-Bold.otf in Resources */,
+				A01AD03C2866B28000062F58 /* LaunchScreen.storyboard in Resources */,
+				A01AD03D2866B28000062F58 /* Assets.xcassets in Resources */,
+				A01AD03E2866B28000062F58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +388,62 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A01AD0342866B28000062F58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HLCandy-RD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01AD03F2866B28000062F58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01AD0402866B28000062F58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B8DE4AFA2EB0E8A627D83E24 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +487,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A01AD02C28669F6300062F58 /* HLCandyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD0352866B28000062F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01AD0362866B28000062F58 /* ViewController.m in Sources */,
+				A01AD0372866B28000062F58 /* AppDelegate.m in Sources */,
+				A01AD0382866B28000062F58 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +749,40 @@
 			};
 			name = Release;
 		};
+		A01AD0422866B28000062F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C242B88DF8AF09B3F5F934 /* Pods-HLCandy-RD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HLCandy-RD-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seabright.HLCandy-RD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A01AD0432866B28000062F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC96649C41739A8C4750FE7 /* Pods-HLCandy-RD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "HLCandy-RD-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seabright.HLCandy-RD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -654,6 +818,15 @@
 			buildConfigurations = (
 				A01AD03128669F6300062F58 /* Debug */,
 				A01AD03228669F6300062F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01AD0412866B28000062F58 /* Build configuration list for PBXNativeTarget "HLCandy-RD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01AD0422866B28000062F58 /* Debug */,
+				A01AD0432866B28000062F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

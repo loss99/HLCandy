@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "188B562CF3E2E14FFF18AB4C30B98545"
-               BuildableName = "HLMe.framework"
+               BuildableName = "HLMe"
                BlueprintName = "HLMe"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

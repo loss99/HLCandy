@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HLKit.h"
 #import "HLModule.h"
 
 FOUNDATION_EXPORT double HLKitVersionNumber;

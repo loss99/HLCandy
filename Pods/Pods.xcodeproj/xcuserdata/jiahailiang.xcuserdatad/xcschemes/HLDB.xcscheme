@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F783CDCA69AD95F4EFC56B9448BF3958"
-               BuildableName = "HLDB.framework"
+               BuildableName = "HLDB"
                BlueprintName = "HLDB"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

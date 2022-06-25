@@ -60,7 +60,7 @@ TODO: Add long description of the pod here.
   s.prefix_header_contents = <<-EOS
   #ifdef __OBJC__
   #import "HLKit.h"
-  #import "HLMeDefine.h"
+  #import "HLMeHeader.h"
   #endif
   EOS
 end

@@ -26,6 +26,9 @@
       "HLKit/Images.xcassets"
     ]
   },
+  "vendored_frameworks": [
+    "HLKit/Libs/DU/du.framework"
+  ],
   "dependencies": {
     "FlexLib": [
 

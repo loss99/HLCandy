@@ -1,0 +1,6 @@
+framework module Pods_HLCandy_RD {
+  umbrella header "Pods-HLCandy-RD-umbrella.h"
+
+  export *
+  module * { export * }
+}

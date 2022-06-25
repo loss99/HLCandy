@@ -31,5 +31,5 @@
 
     ]
   },
-  "prefix_header_contents": "#ifdef __OBJC__\n#import \"HLKit.h\"\n#import \"HLMeDefine.h\"\n#endif"
+  "prefix_header_contents": "#ifdef __OBJC__\n#import \"HLKit.h\"\n#import \"HLMeHeader.h\"\n#endif"
 }

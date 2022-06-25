@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6F0AA97A8A281280CEF567C72EEC318B"
-               BuildableName = "HLMatch.framework"
+               BuildableName = "HLMatch"
                BlueprintName = "HLMatch"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

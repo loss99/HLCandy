@@ -54,9 +54,7 @@ TODO: Add long description of the pod here.
   s.prefix_header_contents = <<-EOS
   #ifdef __OBJC__
   #import <HLKit/HLKit.h>
-  #import <HLKitSon/HLKitSon.h>
   #import "HLDB.h"
-  #import "UIImageView+YPWebImage.h"
   #import <FlexLib/FlexLib.h>
   #import "HLChatHeader.h"
   #endif

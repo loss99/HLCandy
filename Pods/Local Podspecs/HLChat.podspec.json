@@ -34,5 +34,5 @@
 
     ]
   },
-  "prefix_header_contents": "#ifdef __OBJC__\n#import <HLKit/HLKit.h>\n#import <HLKitSon/HLKitSon.h>\n#import \"HLDB.h\"\n#import \"UIImageView+YPWebImage.h\"\n#import <FlexLib/FlexLib.h>\n#import \"HLChatHeader.h\"\n#endif"
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <HLKit/HLKit.h>\n#import \"HLDB.h\"\n#import <FlexLib/FlexLib.h>\n#import \"HLChatHeader.h\"\n#endif"
 }

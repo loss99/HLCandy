@@ -50,33 +50,34 @@ inhibit_all_warnings!
   pod 'HLMatch',              :path => './Modules/HLMatch', :inhibit_warnings => false
 
 
-
-
-
   
   target 'HLCandy' do
     
   end
 
-#post_install do |installer|
-#  #  system('python modifysh.py')
-##    system('python3 jumpController.py')
-#    moduleArray = ['HLKit', 'HLLogin'];
-#
-#    installer.pods_project.build_configurations.each do |config|
-#      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-#      config.build_settings['VALID_ARCHS'] = 'arm64 x86_64'
-#      config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
-#      config.build_settings['CLANG_WARN_STRICT_PROTOTYPES'] = 'NO'
-#    end
-#
-#    installer.pods_project.targets.each do |target|
-#      target.build_configurations.each do |config|
-#        if moduleArray.include?(target.name)
-#          config.build_settings['GCC_GENERATE_TEST_COVERAGE_FILES'] = 'YES'
-#          config.build_settings['GCC_INSTRUMENT_PROGRAM_FLOW_ARCS'] = 'YES'
-#        end
-#        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '9.0'
-#      end
-#    end
-#end
+  target 'HLCandy-RD' do
+  
+  end
+
+post_install do |installer|
+  #  system('python modifysh.py')
+#    system('python3 jumpController.py')
+    moduleArray = ['HLKit','HLDB','HLLogin','HLMe','HLMatch','HLChat'];
+
+    installer.pods_project.build_configurations.each do |config|
+      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+      config.build_settings['VALID_ARCHS'] = 'arm64 x86_64'
+      config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
+      config.build_settings['CLANG_WARN_STRICT_PROTOTYPES'] = 'NO'
+    end
+
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        if moduleArray.include?(target.name)
+          config.build_settings['GCC_GENERATE_TEST_COVERAGE_FILES'] = 'YES'
+          config.build_settings['GCC_INSTRUMENT_PROGRAM_FLOW_ARCS'] = 'YES'
+        end
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '11.0'
+      end
+    end
+end

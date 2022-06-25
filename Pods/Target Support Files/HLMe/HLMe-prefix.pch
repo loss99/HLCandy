@@ -11,6 +11,6 @@
 #endif
 
 #ifdef __OBJC__
-//#import "HLKit.h"
-//#import "HLMeDefine.h"
+#import "HLKit.h"
+#import "HLMeDefine.h"
 #endif

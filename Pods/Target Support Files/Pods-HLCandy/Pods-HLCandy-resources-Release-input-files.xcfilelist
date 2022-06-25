@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-HLCandy/Pods-HLCandy-resources.sh
 ${PODS_ROOT}/GT3Captcha-iOS/SDK/GT3Captcha.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/HLChat/HLChat.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/HLMatch/HLMatch.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/HLMe/HLMe.bundle
