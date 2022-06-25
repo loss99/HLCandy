@@ -1,0 +1,16 @@
+PODS:
+  - HLChat (0.1.0)
+
+DEPENDENCIES:
+  - HLChat (from `../`)
+
+EXTERNAL SOURCES:
+  HLChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLChat: 66da83edd01b8d780f6b3473568eb0d80b1c9979
+
+PODFILE CHECKSUM: 39bd0947ffc3de78f615831a871590443c6a18fb
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,20 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#ifdef __OBJC__
+//#import <HLKit/HLKit.h>
+//#import <HLKitSon/HLKitSon.h>
+//#import "HLDB.h"
+//#import "UIImageView+YPWebImage.h"
+#import <FlexLib/FlexLib.h>
+//#import "HLChatHeader.h"
+#endif

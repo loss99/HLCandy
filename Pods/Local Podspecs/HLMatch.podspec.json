@@ -1,0 +1,35 @@
+{
+  "name": "HLMatch",
+  "version": "0.1.0",
+  "summary": "A short description of HLMatch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/贾海亮/HLMatch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "贾海亮": "www.51candy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/贾海亮/HLMatch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "HLMatch/Classes/**/*.{h,m,mm,cpp,c,xml}",
+  "resource_bundles": {
+    "HLMatch": [
+      "HLMatch/Assets/**/*",
+      "HLMatch/Classes/**/*.{xml}",
+      "HLMatch/Images.xcassets"
+    ]
+  },
+  "dependencies": {
+    "HLKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#ifdef __OBJC__\n#import <HLKit/HLKit.h>\n#import \"HLMatchHeader.h\"\n#endif"
+}

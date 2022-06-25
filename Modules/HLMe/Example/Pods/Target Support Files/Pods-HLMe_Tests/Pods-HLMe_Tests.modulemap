@@ -1,0 +1,6 @@
+framework module Pods_HLMe_Tests {
+  umbrella header "Pods-HLMe_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module HLDB {
+  umbrella header "HLDB-umbrella.h"
+
+  export *
+  module * { export * }
+}

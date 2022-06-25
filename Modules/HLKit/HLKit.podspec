@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/贾海亮/HLKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'HLKit/Classes/**/*.{h,m,mm,cpp,c,xml}'
   
@@ -49,7 +49,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.prefix_header_contents = <<-EOS
   #ifdef __OBJC__
-  #import <OGKit/OGKit.h>
+  #import <HLKit/HLKit.h>
   #endif
   EOS
 end

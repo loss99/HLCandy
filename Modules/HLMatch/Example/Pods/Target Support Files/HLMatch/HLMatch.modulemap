@@ -1,0 +1,6 @@
+framework module HLMatch {
+  umbrella header "HLMatch-umbrella.h"
+
+  export *
+  module * { export * }
+}

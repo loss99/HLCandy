@@ -1,0 +1,22 @@
+{
+  "name": "HLChat",
+  "version": "0.1.0",
+  "summary": "A short description of HLChat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/贾海亮/HLChat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "贾海亮": "www.51candy@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/贾海亮/HLChat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HLChat/Classes/**/*"
+}

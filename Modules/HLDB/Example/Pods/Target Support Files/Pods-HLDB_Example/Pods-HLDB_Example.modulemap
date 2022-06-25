@@ -1,0 +1,6 @@
+framework module Pods_HLDB_Example {
+  umbrella header "Pods-HLDB_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

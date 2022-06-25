@@ -1,0 +1,16 @@
+PODS:
+  - HLDB (0.1.0)
+
+DEPENDENCIES:
+  - HLDB (from `../`)
+
+EXTERNAL SOURCES:
+  HLDB:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLDB: a1dbcc70a0e4ff0c1d0063b18d862fdaf01edcec
+
+PODFILE CHECKSUM: c2b0bc58ddfde1233e0b124eb17be849ad22ad14
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HLMe_Example' do
+  pod 'HLMe', :path => '../'
+
+  target 'HLMe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

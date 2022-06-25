@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HLDB_Example' do
+  pod 'HLDB', :path => '../'
+
+  target 'HLDB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

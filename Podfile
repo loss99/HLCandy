@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
- platform :ios, '9.0'
+ platform :ios, '11.0'
 
 install! 'cocoapods', :deterministic_uuids => false
 #install! 'cocoapods', :warn_for_unused_master_specs_repo => false
@@ -43,6 +43,16 @@ inhibit_all_warnings!
   # 组件
   pod 'HLLogin',            :path => './Modules/HLLogin', :inhibit_warnings => false
   pod 'HLKit',              :path => './Modules/HLKit', :inhibit_warnings => false
+  pod 'HLDB',              :path => './Modules/HLDB', :inhibit_warnings => false
+  pod 'HLChat',              :path => './Modules/HLChat', :inhibit_warnings => false
+  pod 'HLMe',              :path => './Modules/HLMe', :inhibit_warnings => false
+
+  pod 'HLMatch',              :path => './Modules/HLMatch', :inhibit_warnings => false
+
+
+
+
+
   
   target 'HLCandy' do
     

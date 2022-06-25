@@ -1,0 +1,6 @@
+framework module HLMe {
+  umbrella header "HLMe-umbrella.h"
+
+  export *
+  module * { export * }
+}
