@@ -3,19 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		89B60A8A6B774CA169761A26 /* Pods_HLCandy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C0E752A690CCFE2261F616 /* Pods_HLCandy.framework */; };
 		A01ACFF52865688100062F58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFF42865688100062F58 /* AppDelegate.m */; };
-		A01ACFF82865688100062F58 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFF72865688100062F58 /* SceneDelegate.m */; };
 		A01ACFFB2865688100062F58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFFA2865688100062F58 /* ViewController.m */; };
 		A01ACFFE2865688100062F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01ACFFC2865688100062F58 /* Main.storyboard */; };
 		A01AD0002865688300062F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01ACFFF2865688300062F58 /* Assets.xcassets */; };
 		A01AD0032865688300062F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01AD0012865688300062F58 /* LaunchScreen.storyboard */; };
 		A01AD0062865688300062F58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD0052865688300062F58 /* main.m */; };
+		A01AD01E28669F4C00062F58 /* HLCandyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD01D28669F4C00062F58 /* HLCandyTests.m */; };
+		A01AD02C28669F6300062F58 /* HLCandyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD02B28669F6300062F58 /* HLCandyUITests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A01AD02028669F4C00062F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01ACFE82865688100062F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01ACFEF2865688100062F58;
+			remoteInfo = HLCandy;
+		};
+		A01AD02E28669F6300062F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01ACFE82865688100062F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A01ACFEF2865688100062F58;
+			remoteInfo = HLCandy;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1CD2E9E345B0AB921CB614F8 /* Pods-HLCandy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy.debug.xcconfig"; path = "Target Support Files/Pods-HLCandy/Pods-HLCandy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -24,8 +42,6 @@
 		A01ACFF02865688100062F58 /* HLCandy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCandy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01ACFF32865688100062F58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A01ACFF42865688100062F58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A01ACFF62865688100062F58 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		A01ACFF72865688100062F58 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		A01ACFF92865688100062F58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A01ACFFA2865688100062F58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A01ACFFD2865688100062F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +49,12 @@
 		A01AD0022865688300062F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A01AD0042865688300062F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A01AD0052865688300062F58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A01AD01B28669F4B00062F58 /* HLCandyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCandyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01AD01D28669F4C00062F58 /* HLCandyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCandyTests.m; sourceTree = "<group>"; };
+		A01AD01F28669F4C00062F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A01AD02928669F6300062F58 /* HLCandyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCandyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01AD02B28669F6300062F58 /* HLCandyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCandyUITests.m; sourceTree = "<group>"; };
+		A01AD02D28669F6300062F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +63,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				89B60A8A6B774CA169761A26 /* Pods_HLCandy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD01828669F4B00062F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD02628669F6300062F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				A01ACFF22865688100062F58 /* HLCandy */,
+				A01AD01C28669F4C00062F58 /* HLCandyTests */,
+				A01AD02A28669F6300062F58 /* HLCandyUITests */,
 				A01ACFF12865688100062F58 /* Products */,
 				C9F2EA31337914CB371F5F55 /* Pods */,
 				319244FC5FBE9ACE269C7376 /* Frameworks */,
@@ -69,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				A01ACFF02865688100062F58 /* HLCandy.app */,
+				A01AD01B28669F4B00062F58 /* HLCandyTests.xctest */,
+				A01AD02928669F6300062F58 /* HLCandyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,8 +118,6 @@
 			children = (
 				A01ACFF32865688100062F58 /* AppDelegate.h */,
 				A01ACFF42865688100062F58 /* AppDelegate.m */,
-				A01ACFF62865688100062F58 /* SceneDelegate.h */,
-				A01ACFF72865688100062F58 /* SceneDelegate.m */,
 				A01ACFF92865688100062F58 /* ViewController.h */,
 				A01ACFFA2865688100062F58 /* ViewController.m */,
 				A01ACFFC2865688100062F58 /* Main.storyboard */,
@@ -91,13 +129,30 @@
 			path = HLCandy;
 			sourceTree = "<group>";
 		};
+		A01AD01C28669F4C00062F58 /* HLCandyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A01AD01D28669F4C00062F58 /* HLCandyTests.m */,
+				A01AD01F28669F4C00062F58 /* Info.plist */,
+			);
+			path = HLCandyTests;
+			sourceTree = "<group>";
+		};
+		A01AD02A28669F6300062F58 /* HLCandyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A01AD02B28669F6300062F58 /* HLCandyUITests.m */,
+				A01AD02D28669F6300062F58 /* Info.plist */,
+			);
+			path = HLCandyUITests;
+			sourceTree = "<group>";
+		};
 		C9F2EA31337914CB371F5F55 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				1CD2E9E345B0AB921CB614F8 /* Pods-HLCandy.debug.xcconfig */,
 				732D55CCD06F26665D329CF2 /* Pods-HLCandy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +179,42 @@
 			productReference = A01ACFF02865688100062F58 /* HLCandy.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A01AD01A28669F4B00062F58 /* HLCandyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01AD02228669F4C00062F58 /* Build configuration list for PBXNativeTarget "HLCandyTests" */;
+			buildPhases = (
+				A01AD01728669F4B00062F58 /* Sources */,
+				A01AD01828669F4B00062F58 /* Frameworks */,
+				A01AD01928669F4B00062F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01AD02128669F4C00062F58 /* PBXTargetDependency */,
+			);
+			name = HLCandyTests;
+			productName = HLCandyTests;
+			productReference = A01AD01B28669F4B00062F58 /* HLCandyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A01AD02828669F6300062F58 /* HLCandyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01AD03028669F6300062F58 /* Build configuration list for PBXNativeTarget "HLCandyUITests" */;
+			buildPhases = (
+				A01AD02528669F6300062F58 /* Sources */,
+				A01AD02628669F6300062F58 /* Frameworks */,
+				A01AD02728669F6300062F58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01AD02F28669F6300062F58 /* PBXTargetDependency */,
+			);
+			name = HLCandyUITests;
+			productName = HLCandyUITests;
+			productReference = A01AD02928669F6300062F58 /* HLCandyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -135,6 +226,14 @@
 				TargetAttributes = {
 					A01ACFEF2865688100062F58 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					A01AD01A28669F4B00062F58 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A01ACFEF2865688100062F58;
+					};
+					A01AD02828669F6300062F58 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A01ACFEF2865688100062F58;
 					};
 				};
 			};
@@ -152,6 +251,8 @@
 			projectRoot = "";
 			targets = (
 				A01ACFEF2865688100062F58 /* HLCandy */,
+				A01AD01A28669F4B00062F58 /* HLCandyTests */,
+				A01AD02828669F6300062F58 /* HLCandyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +265,20 @@
 				A01AD0032865688300062F58 /* LaunchScreen.storyboard in Resources */,
 				A01AD0002865688300062F58 /* Assets.xcassets in Resources */,
 				A01ACFFE2865688100062F58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD01928669F4B00062F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD02728669F6300062F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,11 +351,39 @@
 				A01ACFFB2865688100062F58 /* ViewController.m in Sources */,
 				A01ACFF52865688100062F58 /* AppDelegate.m in Sources */,
 				A01AD0062865688300062F58 /* main.m in Sources */,
-				A01ACFF82865688100062F58 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD01728669F4B00062F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01AD01E28669F4C00062F58 /* HLCandyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01AD02528669F6300062F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01AD02C28669F6300062F58 /* HLCandyUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A01AD02128669F4C00062F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01ACFEF2865688100062F58 /* HLCandy */;
+			targetProxy = A01AD02028669F4C00062F58 /* PBXContainerItemProxy */;
+		};
+		A01AD02F28669F6300062F58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A01ACFEF2865688100062F58 /* HLCandy */;
+			targetProxy = A01AD02E28669F6300062F58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A01ACFFC2865688100062F58 /* Main.storyboard */ = {
@@ -406,6 +549,76 @@
 			};
 			name = Release;
 		};
+		A01AD02328669F4C00062F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCandyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seabright.HLCandyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCandy.app/HLCandy";
+			};
+			name = Debug;
+		};
+		A01AD02428669F4C00062F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCandyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seabright.HLCandyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCandy.app/HLCandy";
+			};
+			name = Release;
+		};
+		A01AD03128669F6300062F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCandyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seabright.HLCandyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCandy;
+			};
+			name = Debug;
+		};
+		A01AD03228669F6300062F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCandyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.seabright.HLCandyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCandy;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -423,6 +636,24 @@
 			buildConfigurations = (
 				A01AD00A2865688300062F58 /* Debug */,
 				A01AD00B2865688300062F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01AD02228669F4C00062F58 /* Build configuration list for PBXNativeTarget "HLCandyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01AD02328669F4C00062F58 /* Debug */,
+				A01AD02428669F4C00062F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01AD03028669F6300062F58 /* Build configuration list for PBXNativeTarget "HLCandyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01AD03128669F6300062F58 /* Debug */,
+				A01AD03228669F6300062F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
