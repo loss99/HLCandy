@@ -49,6 +49,8 @@ TODO: Add long description of the pod here.
 #   s.frameworks = 'UIKit', 'MapKit'
 #   s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'HLKit'
+    s.dependency 'GT3Captcha-iOS'
+    
     s.prefix_header_contents = <<-EOS
     #ifdef __OBJC__
     #import <HLKit/HLKit.h>

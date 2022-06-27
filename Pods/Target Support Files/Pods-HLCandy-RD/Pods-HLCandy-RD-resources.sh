@@ -97,16 +97,28 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLibPreview.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLib.bundle"
   install_resource "${PODS_ROOT}/GT3Captcha-iOS/SDK/GT3Captcha.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLChat/HLChat.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLKit/HLKit.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLLogin/HLLogin.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLMatch/HLMatch.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLMe/HLMe.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLibPreview.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLib.bundle"
   install_resource "${PODS_ROOT}/GT3Captcha-iOS/SDK/GT3Captcha.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLChat/HLChat.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLKit/HLKit.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLLogin/HLLogin.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLMatch/HLMatch.bundle"
   install_resource "${PODS_CONFIGURATION_BUILD_DIR}/HLMe/HLMe.bundle"
+  install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
+  install_resource "${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

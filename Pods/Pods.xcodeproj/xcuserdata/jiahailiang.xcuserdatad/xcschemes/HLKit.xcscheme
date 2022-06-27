@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "784F3B8AD46BFACF7B299C39FAFFDAAC"
-               BuildableName = "HLKit.framework"
+               BuildableName = "libHLKit.a"
                BlueprintName = "HLKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

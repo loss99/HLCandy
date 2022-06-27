@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2232E383BCAB1C4ADF5BBA65 /* Pods_HLCandy_RD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC570BEB85B8941855CD0E1F /* Pods_HLCandy_RD.framework */; };
+		755A15FAC93C37122D46717E /* libPods-HLCandy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD8B3A9968C82FF5233BE27B /* libPods-HLCandy.a */; };
 		89B60A8A6B774CA169761A26 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		9766D0A93ACA1D2DE50D4AAB /* libPods-HLCandy-RD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 154583ACB52D27FFD17FB8D9 /* libPods-HLCandy-RD.a */; };
 		A01ACFF52865688100062F58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFF42865688100062F58 /* AppDelegate.m */; };
 		A01ACFFB2865688100062F58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A01ACFFA2865688100062F58 /* ViewController.m */; };
 		A01ACFFE2865688100062F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01ACFFC2865688100062F58 /* Main.storyboard */; };
@@ -25,7 +26,8 @@
 		A01AD03E2866B28000062F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01ACFFC2865688100062F58 /* Main.storyboard */; };
 		A01AD04C2866DA6700062F58 /* SourceHanSerifCN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A01AD04B2866DA6700062F58 /* SourceHanSerifCN-Bold.otf */; };
 		A01AD04D2866DA6700062F58 /* SourceHanSerifCN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A01AD04B2866DA6700062F58 /* SourceHanSerifCN-Bold.otf */; };
-		B9E773EDEAF34A2A3CB260D0 /* Pods_HLCandy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5628F5A4F3EDEE86FBAC83 /* Pods_HLCandy.framework */; };
+		A01AD05B2866EE4300062F58 /* HLTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD05A2866EE4300062F58 /* HLTabbarVC.m */; };
+		A01AD05C2866EE4300062F58 /* HLTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A01AD05A2866EE4300062F58 /* HLTabbarVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +49,8 @@
 
 /* Begin PBXFileReference section */
 		00C242B88DF8AF09B3F5F934 /* Pods-HLCandy-RD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy-RD.debug.xcconfig"; path = "Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD.debug.xcconfig"; sourceTree = "<group>"; };
+		154583ACB52D27FFD17FB8D9 /* libPods-HLCandy-RD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLCandy-RD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD2E9E345B0AB921CB614F8 /* Pods-HLCandy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy.debug.xcconfig"; path = "Target Support Files/Pods-HLCandy/Pods-HLCandy.debug.xcconfig"; sourceTree = "<group>"; };
-		6B5628F5A4F3EDEE86FBAC83 /* Pods_HLCandy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLCandy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC96649C41739A8C4750FE7 /* Pods-HLCandy-RD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy-RD.release.xcconfig"; path = "Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD.release.xcconfig"; sourceTree = "<group>"; };
 		732D55CCD06F26665D329CF2 /* Pods-HLCandy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HLCandy.release.xcconfig"; path = "Target Support Files/Pods-HLCandy/Pods-HLCandy.release.xcconfig"; sourceTree = "<group>"; };
 		A01ACFF02865688100062F58 /* HLCandy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCandy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,7 +72,9 @@
 		A01AD0442866B28000062F58 /* HLCandy-RD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HLCandy-RD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A01AD0452866B28000062F58 /* HLCandy-RD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HLCandy-RD-Info.plist"; path = "/Users/jiahailiang/HLCandy/HLCandy-RD-Info.plist"; sourceTree = "<absolute>"; };
 		A01AD04B2866DA6700062F58 /* SourceHanSerifCN-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSerifCN-Bold.otf"; sourceTree = "<group>"; };
-		CC570BEB85B8941855CD0E1F /* Pods_HLCandy_RD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HLCandy_RD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01AD0592866EE4300062F58 /* HLTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLTabbarVC.h; sourceTree = "<group>"; };
+		A01AD05A2866EE4300062F58 /* HLTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLTabbarVC.m; sourceTree = "<group>"; };
+		DD8B3A9968C82FF5233BE27B /* libPods-HLCandy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HLCandy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89B60A8A6B774CA169761A26 /* BuildFile in Frameworks */,
-				B9E773EDEAF34A2A3CB260D0 /* Pods_HLCandy.framework in Frameworks */,
+				755A15FAC93C37122D46717E /* libPods-HLCandy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2232E383BCAB1C4ADF5BBA65 /* Pods_HLCandy_RD.framework in Frameworks */,
+				9766D0A93ACA1D2DE50D4AAB /* libPods-HLCandy-RD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,8 +114,8 @@
 		319244FC5FBE9ACE269C7376 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CC570BEB85B8941855CD0E1F /* Pods_HLCandy_RD.framework */,
-				6B5628F5A4F3EDEE86FBAC83 /* Pods_HLCandy.framework */,
+				DD8B3A9968C82FF5233BE27B /* libPods-HLCandy.a */,
+				154583ACB52D27FFD17FB8D9 /* libPods-HLCandy-RD.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 		A01ACFE72865688100062F58 = {
 			isa = PBXGroup;
 			children = (
+				A01AD0582866EE0600062F58 /* TabbarView */,
 				A01ACFF22865688100062F58 /* HLCandy */,
 				A01AD01C28669F4C00062F58 /* HLCandyTests */,
 				A01AD02A28669F6300062F58 /* HLCandyUITests */,
@@ -174,6 +178,15 @@
 				A01AD02D28669F6300062F58 /* Info.plist */,
 			);
 			path = HLCandyUITests;
+			sourceTree = "<group>";
+		};
+		A01AD0582866EE0600062F58 /* TabbarView */ = {
+			isa = PBXGroup;
+			children = (
+				A01AD0592866EE4300062F58 /* HLTabbarVC.h */,
+				A01AD05A2866EE4300062F58 /* HLTabbarVC.m */,
+			);
+			path = TabbarView;
 			sourceTree = "<group>";
 		};
 		C9F2EA31337914CB371F5F55 /* Pods */ = {
@@ -468,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01AD05B2866EE4300062F58 /* HLTabbarVC.m in Sources */,
 				A01ACFFB2865688100062F58 /* ViewController.m in Sources */,
 				A01ACFF52865688100062F58 /* AppDelegate.m in Sources */,
 				A01AD0062865688300062F58 /* main.m in Sources */,
@@ -494,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01AD05C2866EE4300062F58 /* HLTabbarVC.m in Sources */,
 				A01AD0362866B28000062F58 /* ViewController.m in Sources */,
 				A01AD0372866B28000062F58 /* AppDelegate.m in Sources */,
 				A01AD0382866B28000062F58 /* main.m in Sources */,

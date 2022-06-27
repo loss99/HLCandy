@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D07A05F514BF9C5434DAC907988C708"
-               BuildableName = "IGListDiffKit.framework"
+               BuildableName = "libIGListDiffKit.a"
                BlueprintName = "IGListDiffKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "31EB174E297AAE291D844E1598635D15"
-               BuildableName = "cocore.framework"
+               BuildableName = "libcocore.a"
                BlueprintName = "cocore"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

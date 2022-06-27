@@ -1,5 +1,11 @@
 ${PODS_ROOT}/Target Support Files/Pods-HLCandy-RD/Pods-HLCandy-RD-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLibPreview.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLib.bundle
 ${PODS_ROOT}/GT3Captcha-iOS/SDK/GT3Captcha.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/HLChat/HLChat.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/HLKit/HLKit.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/HLLogin/HLLogin.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/HLMatch/HLMatch.bundle
 ${PODS_CONFIGURATION_BUILD_DIR}/HLMe/HLMe.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle

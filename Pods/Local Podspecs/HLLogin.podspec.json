@@ -29,6 +29,9 @@
   "dependencies": {
     "HLKit": [
 
+    ],
+    "GT3Captcha-iOS": [
+
     ]
   },
   "prefix_header_contents": "#ifdef __OBJC__\n#import <HLKit/HLKit.h>\n#endif"

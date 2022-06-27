@@ -1,17 +1,16 @@
 # Uncomment the next line to define a global platform for your project
  platform :ios, '11.0'
 
-install! 'cocoapods', :deterministic_uuids => false
-#install! 'cocoapods', :warn_for_unused_master_specs_repo => false
-inhibit_all_warnings!
+  install! 'cocoapods', :deterministic_uuids => false
+  install! 'cocoapods', :warn_for_unused_master_specs_repo => false
+  inhibit_all_warnings!
 
 
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+#  use_frameworks!
   
 
   # Pods for HLCandy
-
 
   # 公有库
   pod 'AFNetworking', '4.0.1'

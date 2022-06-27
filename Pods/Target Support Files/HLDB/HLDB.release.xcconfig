@@ -1,7 +1,8 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/HLDB
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FlexLib" "${PODS_CONFIGURATION_BUILD_DIR}/HLKit" "${PODS_CONFIGURATION_BUILD_DIR}/SQLiteRepairKit" "${PODS_CONFIGURATION_BUILD_DIR}/WCDB" "${PODS_CONFIGURATION_BUILD_DIR}/WCDBOptimizedSQLCipher" "${PODS_CONFIGURATION_BUILD_DIR}/Yoga" "${PODS_ROOT}/../Modules/HLKit/HLKit/Libs/DU"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../Modules/HLKit/HLKit/Libs/DU"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/HLDB" "${PODS_ROOT}/Headers/Public"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/HLDB" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FlexLib" "${PODS_ROOT}/Headers/Public/HLDB" "${PODS_ROOT}/Headers/Public/HLKit" "${PODS_ROOT}/Headers/Public/SQLiteRepairKit" "${PODS_ROOT}/Headers/Public/WCDB" "${PODS_ROOT}/Headers/Public/WCDBOptimizedSQLCipher" "${PODS_ROOT}/Headers/Public/Yoga"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/yoga/Yoga.modulemap"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

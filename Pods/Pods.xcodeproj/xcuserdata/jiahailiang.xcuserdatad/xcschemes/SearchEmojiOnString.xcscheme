@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1D7D46E469219D070603514C8235CF0"
-               BuildableName = "SearchEmojiOnString.framework"
+               BuildableName = "libSearchEmojiOnString.a"
                BlueprintName = "SearchEmojiOnString"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

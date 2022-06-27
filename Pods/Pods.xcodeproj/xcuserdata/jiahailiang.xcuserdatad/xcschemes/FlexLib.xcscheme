@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "317454BD8F0A72BD312FCA3621EC3E1E"
-               BuildableName = "FlexLib.framework"
+               BuildableName = "libFlexLib.a"
                BlueprintName = "FlexLib"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
