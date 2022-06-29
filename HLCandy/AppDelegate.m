@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HLTabbarVC.h"
-#import "MMKV.h"
+//#import "MMKV.h"
 
 
 @interface AppDelegate ()

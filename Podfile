@@ -24,7 +24,7 @@
   pod 'SearchEmojiOnString', '1.1.0'
   pod 'MGSwipeTableCell', '1.6.11'
   pod 'Protobuf', '3.7.0-rc.2'
-  pod 'SVGKit', '3.0.0'
+#  pod 'SVGKit', '3.0.0'
   pod 'SVProgressHUD', '2.2.5'
   pod 'lottie-ios', '2.5.3'
   pod 'AspectsV1.4.2', '~> 1.4.2'
@@ -64,8 +64,8 @@ post_install do |installer|
     moduleArray = ['HLKit','HLDB','HLLogin','HLMe','HLMatch','HLChat'];
 
     installer.pods_project.build_configurations.each do |config|
-      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
-      config.build_settings['VALID_ARCHS'] = 'arm64 x86_64'
+#      config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
+#      config.build_settings['VALID_ARCHS'] = 'arm64 x86_64'
       config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'NO'
       config.build_settings['CLANG_WARN_STRICT_PROTOTYPES'] = 'NO'
     end
